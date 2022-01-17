@@ -31,7 +31,6 @@ const resetTimer = () => {
     segundo = 0;
     milisegundo = 0;
     atualizaHTML()
-
     stopTimer();
 }
 
@@ -48,7 +47,7 @@ const timer = () => {
         console.log('Limite quase atingido')
     }
     milisegundo += 10;
-
+    
     atualizaHTML();
 }
 
